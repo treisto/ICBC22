@@ -1,18 +1,18 @@
 const RippleAPI = require('ripple-lib').RippleAPI
 
 // TESTNET ADDRESS 1 - SENDER
-const ADDRESS_1 = "rHb9CJAWyB4rj91VRWn96DkukG4bwdtyTh"
-const SECRET_1 = "snoPBrXtMeMyMHUVTgbuqAfg1SUTb"
+const ADDRESS_1 = "rrpJ22B6cgGzFw9ZaF72bM63T8siVH1Tbe"
+const SECRET_1 = "snVW7jLiUzjfPRuJQMYKtJohGazVV"
 
 //const ADDRESS_1 = "rLR52VSZG3wqSrkcpfkSnaKnYoYyPoJJgy"
 //const SECRET_1 = "ssrnzXKsJKWDh9cFpmZSLWHN3D5HM"
 
 // TESTNET ADDRESS 2 - RECEIVER
-const ADDRESS_2 = "rnW7CM4K6FcKbW2NcC8j2TQFXn3FAHdwby"
+const ADDRESS_2 = "rJoDXhe8jodS7Mtdgytk56pDC92EURH5TA"
 
 const instructions = {maxLedgerVersionOffset: 5}
 const currency = 'XRP'
-const amount = '20000000' //20 million XRP
+const amount = '10' //10 XRP
 
 const payment = {
   source: {
