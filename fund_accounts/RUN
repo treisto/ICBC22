@@ -1,0 +1,43 @@
+#!/bin/bash
+# type "./RUN" in terminal
+echo "Generating Wallet 1 ***Connector1_UNI_XRP*** :"
+node ./Connector1_UNI_XRP.js
+echo "################################"
+
+echo "Generating Wallet 2 ***CONNECTOR2_MAC_XRP_ETH*** :"
+node ./CONNECTOR2_MAC_XRP_ETH.js
+echo "################################"
+
+echo "Generating Wallet 3 ***Moneyd_Lpt_UNI*** :"
+node ./Moneyd_Lpt_UNI.js
+echo "################################"
+
+echo "Generating Wallet 4 ***Moneyd_MAC*** :"
+node ./Moneyd_MAC.js
+echo "################################"
+
+echo "Generating Wallet 5 ***Rafiki (Cyril 1)*** :"
+node ./Rafiki.js
+echo "################################"
+
+echo "Generating Wallet 6 ***Rust (Cyril 2)*** :"
+node ./Rust.js
+echo "################################"
+
+echo "Generating Wallet 7 ***Switch_API_client_2*** :"
+node ./Switch_API_client_2.js
+echo "################################"
+
+echo "Generating Wallet 8 ***Rafiki Clement*** :"
+node ./rafiki_clement.js
+echo "################################"
+
+echo "Generating Wallet 9 ***Rafiki Cyril*** :"
+node ./rafiki_cyril.js
+echo "################################"
+
+echo "Checking accounts ... "
+node ./get-accounts-info.js
+echo "#################################"
+
+
