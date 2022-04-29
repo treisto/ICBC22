@@ -1,6 +1,5 @@
-Node code to fund accounts from a local XRPL node.
+ICBC 2022 "The XRPL ledger: from theory to practice."
 
-Need to install ripple-lib node modules in order to work:
-
-https://www.npmjs.com/package/ripple-lib
+In folder "fund_accounts" node code to fund accounts (perform payments) and check accounts balances.
+The folders "mainNetXRPL", "privateXRPL" and "testNetXRPL" include example config files to start ripple nodes on the respective networks.
 
