@@ -2,7 +2,9 @@
 
 ## "The XRPL ledger: from theory to practice."
 
-In folder "fund_accounts" node code to fund accounts (perform payments) and check accounts balances.
+- The folder "fund_accounts" contains code written in node.js to fund accounts (perform payments) and to check XRPL accounts' balances.
 
-The folders "mainNetXRPL", "privateXRPL" and "testNetXRPL" include example config files to start ripple nodes on the respective networks.
+Node modules library "ripple-lib" must be installed alongside this code in order to work properly.
+
+- The folders "mainNetXRPL", "privateXRPL" and "testNetXRPL" include example config files to start ripple nodes on the respective networks.
 
